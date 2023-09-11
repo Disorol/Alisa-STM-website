@@ -1,0 +1,97 @@
+﻿/* <img /> */
+
+#stm {
+    width: 97px;
+    height: 42px;
+    border-bottom: solid 4px #943f60;
+    margin-top: 1.5%;
+    margin-left: 6%;
+}
+
+#contacts {
+    color: white;
+    margin-top: 1.8%;
+    margin-left: 55%;
+}
+
+#tesseract {
+    width: 60px;
+    height: 65px;
+    margin-top: 8%;
+    margin-left: 29%;
+}
+
+#house {
+    width: 65px;
+    height: 60px;
+    margin-top: 12%;
+    margin-left: 26.5%;
+}
+
+#heart {
+    width: 63px;
+    height: 55px;
+    margin-top: 15%;
+    margin-left: 27.5%;
+}
+
+#chalkboard {
+    width: 63px;
+    height: 55px;
+    margin-top: 15%;
+    margin-left: 27.5%;
+}
+
+#text-image {
+    position: absolute;
+    width: 850px;
+    height: 550px;
+    margin-left: 45%;
+
+}
+
+/* <h1 /> */
+
+#title {
+    color: white;
+    margin-left: 5.8%;
+    margin-top: 0.4%;
+}
+
+/* <div /> */
+
+#general-div {
+    background-image: url(/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 100%;
+    height: 100%;
+}
+
+/* <a /> */
+
+#detail-button {
+    margin-top: 2%;
+    margin-left: 7%;
+    font-size: 25px;
+    display: block;
+    width: 145px;
+    height: 40px;
+    background: white;
+    text-align: center;
+    color: black;
+    line-height: 39px;
+    text-decoration: none;
+    box-shadow: 2px 2px black, 2px -2px black, -2px 2px black, -2px -2px black, 
+                4px 4px #4d4368, 
+                6.5px 6.5px black, 
+                9px 9px #8e496a;
+}
+
+    #detail-button:hover {
+        box-shadow: 2px 2px black, 2px -2px black, -2px 2px black, -2px -2px black, 
+                    4px 4px #4d4368, 
+                    6.5px 6.5px black, 
+                    9px 9px #8e496a,
+                    inset 0.5px 0.5px black, inset 0.5px -0.5px black, inset -0.5px 0.5px black, inset -0.5px -0.5px black;
+    }

@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    <img id="text-image" src="~/img/text-image.png" />
+
+    <h1 id="title">
+        СОВРЕМЕННЫЕ РЕШЕНИЯ<br />В ОБЛАСТИ<br />МОДЕЛИРОВАНИЯ И<br />ДИСПЕТЧЕРИЗАЦИИ<br />ТЕХНОЛОГИЧЕСКИХ<br />ПРОЦЕССОВ
+    </h1>
+
+    <a id="detail-button" asp-area="" asp-controller="Home" asp-action="Index">Подробнее</a>
+
+    <div style="margin-top: 2.5%; margin-left: 6.9%; padding: 1px" role="menu">
+        <div style="display: flex;">
+            <a class="icon-button" asp-area="" asp-controller="Home" asp-action="Index">
+                <img id="tesseract" src="~/img/tesseract.jpg" />
+
+                <p>3D МОДЕЛИ ДЛЯ<br />ПРОИЗВОДСТВА</p>
+            </a>
+
+            <a class="icon-button" style="margin-left: 1.5%" asp-area="" asp-controller="Home" asp-action="Index">
+                <img id="house" src="~/img/house.jpg" />
+
+                <p>3D МОДЕЛИ ДЛЯ<br />ЗАСТРОЙЩИКОВ</p>
+            </a>
+        </div>
+
+        <div style="display: flex; margin-top: 1.5%">
+            <a class="icon-button" asp-area="" asp-controller="Home" asp-action="Index">
+                <img id="heart" src="~/img/heart.jpg" />
+
+                <p>РАБОТА С<br />ПАРТНЕРАМИ</p>
+            </a>
+
+            <a class="icon-button" style="margin-left: 1.5%" asp-area="" asp-controller="Home" asp-action="Index">
+                <img id="chalkboard" src="~/img/chalkboard.jpg" />
+
+                <p>ПРЕЗЕНТАЦИЯ<br />КОМПАНИИ</p>
+            </a>
+        </div>
+    </div>
+</div>
