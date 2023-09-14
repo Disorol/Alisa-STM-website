@@ -1,0 +1,113 @@
+﻿#plant {
+    height: 150px;
+    width: 260px;
+    background-color: white;
+    margin-top: 0.9%;
+    margin-left: 1%;
+    position: absolute;
+}
+
+#apartament {
+    height: 150px;
+    width: 260px;
+    background-color: white;
+    margin-top: 0.9%;
+    margin-left: 1.2%;
+    position: absolute;
+}
+
+#VR {
+    height: 150px;
+    width: 260px;
+    background-color: white;
+    margin-top: 0.9%;
+    margin-left: 1%;
+    position: absolute;
+}
+
+#VR1 {
+    height: 150px;
+    width: 260px;
+    background-color: white;
+    margin-top: 0.9%;
+    margin-left: 1.2%;
+    position: absolute;
+}
+
+#textPic {
+    color: #14090D;
+    font-size: 16px;
+    margin-top: 9%;
+    margin-left: 1%;
+    font-family: 'PT Sans';
+    position: absolute;
+    
+}
+
+#textPic1 {
+    color: #14090D;
+    font-size: 16px;
+    margin-top: 9%;
+    margin-left: 1.2%;
+    font-family: 'PT Sans';
+    position: absolute;
+}
+#textPic2 {
+    color: #14090D;
+    font-size: 16px;
+    margin-top: 9%;
+    margin-left: 1.2%;
+    font-family: 'PT Sans';
+    position: absolute;
+}
+#textPic3 {
+    color: #14090D;
+    font-size: 16px;
+    margin-top: 9%;
+    margin-left: 1.2%;
+    font-family: 'PT Sans';
+    position: absolute;
+}
+
+#textGallery{
+    color: white;
+    font-size: 21px;
+    margin-top: 2%;
+    margin-left: 7%;
+
+}
+
+#strokeGal{
+    position: absolute;
+    width: 3px;
+    height: 300px;
+    margin-top: -51%;
+    margin-left: 51.5%;
+    transform: rotate(90deg);
+}
+
+#strokeGal1 {
+    position: absolute;
+    width: 3px;
+    height: 49px;
+    margin-top: -16.5%;
+    margin-left: 102%;
+    
+}
+
+#textVR{
+    position:absolute;
+    font-size: 21px;
+    margin-top: 5%;
+    margin-left: 6%;
+    font-family: 'PT Sans';
+    color: white;
+}
+#textVR1 {
+    position: absolute;
+    font-size: 21px;
+    margin-top: 21%;
+    margin-left: 6%;
+    font-family: 'PT Sans';
+    color: white;
+}
