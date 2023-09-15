@@ -89,6 +89,44 @@
     font-weight: bold;
 }
 
+.rectCase1{
+    position: absolute;
+    width: 450px;
+    height: 130px;
+    background: none;
+    border: 3px solid white;
+    margin-top: 6%;
+    margin-left: 6%;
+}
 
+.rectCase2 {
+    position: absolute;
+    width: 450px;
+    height: 130px;
+    background: none;
+    border: 3px solid white;
+    margin-top: 15%;
+    margin-left: 6%;
+}
+
+.rectCase3 {
+    position: absolute;
+    width: 450px;
+    height: 130px;
+    background: none;
+    border: 3px solid white;
+    margin-top: 24%;
+    margin-left: 6%;
+}
+
+.rectforflat {
+    position: absolute;
+    width: 380px;
+    height: 240px;
+    background: none;
+    border: 3px solid white;
+    margin-top: -11.5%;
+    margin-left: 62.5%;
+}
 
 
