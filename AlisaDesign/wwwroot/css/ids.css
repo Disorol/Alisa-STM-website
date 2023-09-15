@@ -4,8 +4,6 @@
     width: 97px;
     height: 42px;
     border-bottom: solid 4px #943f60;
-    margin-top: 1.5%;
-    margin-left: 6%;
 }
 
 #contacts {
@@ -49,8 +47,12 @@
     margin-left: 45%;
 }
 
-/* <h1 /> */
+#partners-foundry-shop {
+    width: 600px;
+    height: 338px;
+}
 
+/* <h1 /> */
 #title {
     color: white;
     margin-left: 5.8%;
@@ -92,4 +94,13 @@
 
     #detail-button:hover {
         box-shadow: 2px 2px black, 2px -2px black, -2px 2px black, -2px -2px black, 4px 4px #4d4368, 6.5px 6.5px black, 9px 9px #8e496a, inset 0.5px 0.5px black, inset 0.5px -0.5px black, inset -0.5px 0.5px black, inset -0.5px -0.5px black;
+    }
+
+#logo-clickable {
+    margin-top: 1.5%;
+    margin-left: 6%
+}
+
+    #logo-clickable img:hover {
+        border-bottom: solid 4px #b55077;
     }

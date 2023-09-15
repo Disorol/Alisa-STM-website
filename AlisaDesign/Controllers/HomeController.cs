@@ -37,7 +37,7 @@ namespace AlisaDesign.Controllers
             return View();
         }
 
-        public IActionResult work()
+        public IActionResult Partners()
         {
             return View();
         }

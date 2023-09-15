@@ -2,43 +2,65 @@
     ViewData["Title"] = "Gallery";
 }
 
-<body>
+<!-- Тег body может быть только один на документ, он у нас уже есть в Layout, так что просто div-->
+
+<!-- 
+    Посмотри видео, которое я скидывал тебе по позиционированию блоков. Обрати внимание на display: flex. В нём все блоки встают друг за дружкой.
+    display: flex мы помечаем родительский блок, а все блоки в нём display: inline-block, таким образом все дочерние блоки будут иметь ширину сугубо
+    для вмещения своего контента. display: flex даёт возможность блокам внутри него распологаться бесконечно вправо. Чтобы блок, не вмещающийся на страницу по ширине,
+    съехал на следующую строку, необходимо указать стиль flex-wrap: wrap. Поэксперементируй с этим. Можешь загуглить эти теги, там объяснение куда более обширное.
+    Для того, чтобы добавить картинке рамку, используй только один border для родительского блока каждой рамки. Т.е. берём, загоняем каждый img в div и уже работаем
+    с рамкой для этого div. Можешь даже создать класс, потому что у всех div рамки, в теории, должны быть одинаковые. 
+-->
+
+<div>
+    <h1 class="logo">Галерея проектов</h1>
+    <p id="textVR">Технологии AR и VR можно успешно применять при построении решений <br /> для металлургии:</p>
+    <p id="textVR1">C помощью них можно моделировать сложную структуру энергетических <br /> станций:</p>
+    <!-- Отсюда -->
     <div>
-        <h1 class="logo">Галерея проектов</h1>
-        <p id="textVR">Технологии AR и VR можно успешно применять при построении решений <br /> для металлургии:</p>
-        <p id="textVR1">C помощью них можно моделировать сложную структуру энергетических <br /> станций:</p>
-        <div>
-            <img style="width: 260px;height: 150px;margin-top: 11.5%; margin-left: 6.5%" src="/img/plant.png" />
-            <img style="width: 260px;height: 150px;margin-top: 11.5%;margin-left: 3%" src="/img/image 13.png" />
-            <img style="width: 260px;height: 150px;margin-top: 11.5%;margin-left: 3%" src="/img/image 14.png" />
-            <img style="position: absolute;width: 260px;height: 150px;margin-top: 27.5%;margin-left: -48%;" src="/img/image 15.png" />
-            <img style="position: absolute;width: 260px;height: 150px;margin-top: 27.5%;margin-left: -30.8%;"src="/img/image 16.png" />
-            <img style="position: absolute;width: 260px;height: 150px;margin-top: 27.5%;margin-left: -13.6%;" src="/img/image 17.png" />
-        </div>
-
-
-        <div>
-            <div style="position: absolute;width: 300px;height: 195px;background: none;border: 2px solid white;margin-top: -9.3%;margin-left: 5.5%;"></div>
-            <div style="position: absolute;width: 300px;height: 195px;background: none;border: 2px solid white;margin-top: -9.3%;margin-left: 22.5%;"></div>
-            <div style="position: absolute;width: 300px;height: 195px;background: none;border: 2px solid white;margin-top: -9.3%;margin-left: 39.7%;"></div>
-            <div style="position: absolute;width: 300px;height: 195px;background: none;border: 2px solid white;margin-top: 6.8%;margin-left: 39.9%;"></div>
-            <div style="position: absolute;width: 300px;height: 195px;background: none;border: 2px solid white;margin-top: 6.8%;margin-left: 22.8%;"></div>
-            <div style="position: absolute;width: 300px;height: 195px;background: none;border: 2px solid white;margin-top: 6.8%;margin-left: 5.5%;"></div>
-        </div>
-
-        <div id="VR_AR">
-            <p>
-                В настоящее время уровень развития технологий виртуальной <br />
-                (VR, Virtual reality) и дополненной (AR, Augmented reality) реальностей <br />
-                достиг такого уровня, что их влияние <br /> 
-                на современный бизнес трудно не заметить. <br />
-                Эти технологии могут быть использованы для <br />
-                обучения всех групп населения, начиная от дошкольников <br />
-                и заканчивая высококвалифицированными специалистами. <br />
-                Модели для удаленной работы и поддержки, сейчас востребованы как никогда.</p>
-            <div style="position: absolute;width: 560px;height: 200px;margin-left: -3%;margin-top: -38.9%;background: none;border: 2px solid #ffffff;"></div>
-        </div>
-        
+        <img style="width: 260px;height: 150px;margin-top: 11.5%; margin-left: 6.5%" src="/img/foundry-shop.png" />
+        <img style="width: 260px;height: 150px;margin-top: 11.5%;margin-left: 3%" src="/img/image 13.png" />
+        <img style="width: 260px;height: 150px;margin-top: 11.5%;margin-left: 3%" src="/img/image 14.png" />
+        <img style="position: absolute;width: 260px;height: 150px;margin-top: 27.5%;margin-left: -48%;" src="/img/image 15.png" />
+        <img style="position: absolute;width: 260px;height: 150px;margin-top: 27.5%;margin-left: -30.8%;"src="/img/image 16.png" />
+        <img style="position: absolute;width: 260px;height: 150px;margin-top: 27.5%;margin-left: -13.6%;" src="/img/image 17.png" />
     </div>
-    
-</body>
+
+
+    <div>
+        <div style="position: absolute;width: 300px;height: 195px;background: none;border: 2px solid white;margin-top: -9.3%;margin-left: 5.5%;"></div>
+        <div style="position: absolute;width: 300px;height: 195px;background: none;border: 2px solid white;margin-top: -9.3%;margin-left: 22.5%;"></div>
+        <div style="position: absolute;width: 300px;height: 195px;background: none;border: 2px solid white;margin-top: -9.3%;margin-left: 39.7%;"></div>
+        <div style="position: absolute;width: 300px;height: 195px;background: none;border: 2px solid white;margin-top: 6.8%;margin-left: 39.9%;"></div>
+        <div style="position: absolute;width: 300px;height: 195px;background: none;border: 2px solid white;margin-top: 6.8%;margin-left: 22.8%;"></div>
+        <div style="position: absolute;width: 300px;height: 195px;background: none;border: 2px solid white;margin-top: 6.8%;margin-left: 5.5%;"></div>
+    </div>
+
+    <div id="VR_AR">
+        <p>
+            В настоящее время уровень развития технологий виртуальной <br />
+            (VR, Virtual reality) и дополненной (AR, Augmented reality) реальностей <br />
+            достиг такого уровня, что их влияние <br /> 
+            на современный бизнес трудно не заметить. <br />
+            Эти технологии могут быть использованы для <br />
+            обучения всех групп населения, начиная от дошкольников <br />
+            и заканчивая высококвалифицированными специалистами. <br />
+            Модели для удаленной работы и поддержки, сейчас востребованы как никогда.</p>
+        <div style="position: absolute;width: 560px;height: 200px;margin-left: -3%;margin-top: -38.9%;background: none;border: 2px solid #ffffff;"></div>
+    </div>
+    <!-- И до сюда всё по-новой. Главное, не пугайся. Тебя никто никуда не гонит. Сейчас важно научиться делать правильно <3 -->
+</div>
+
+<!-- 
+    А ещё я предлагаю тебе давать картинкам осмысленные названия маленькими буквами через дефис. Это назвается kebab-case. 
+    Т.е. картинка литейный цех будет называться foundry-shop. Точно также предлагаю называть css-файлы, маленькими буквами 
+    через дефис. То, что использовала ты, называется верблюжий стиль (Пример: foundryShop), его обычно используют при 
+    наименовании переменных и полей классов без гетеров/сетеров. А ещё по поводу вьюшек, пусть они будут в стиле PascalCase
+    (Пример: FoundryShop, Partners). Все эти условности идут из общепринятых договоренностей программистов, их желательно соблюдать,
+    там и я не всё знаю пока, но с этим работать будет удобнее.
+-->
+
+<!--
+    Кстати, глянь, как я сделал рамку для картинок в Partners.
+-->
