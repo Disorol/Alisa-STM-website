@@ -21,25 +21,25 @@
     margin-left: 29%;
 }
 
-#house {
+#picture {
     width: 65px;
     height: 60px;
     margin-top: 12%;
     margin-left: 26.5%;
 }
 
-#heart {
-    width: 66px;
-    height: 58px;
-    margin-top: 15%;
-    margin-left: 27.5%;
+#community {
+    width: 77px;
+    height: 71px;
+    margin-top: 9%;
+    margin-left: 22%;
 }
 
 #chalkboard {
     width: 63px;
     height: 55px;
     margin-top: 15%;
-    margin-left: 27.5%;
+    margin-left: 28%;
 }
 
 #text-image {
@@ -47,7 +47,6 @@
     width: 850px;
     height: 550px;
     margin-left: 45%;
-
 }
 
 /* <h1 /> */
@@ -58,14 +57,20 @@
     margin-top: 0.4%;
 }
 
+/* <h2 /> */
+
+#gallery-title {
+    color: white;
+    margin-left: 5.8%;
+    margin-top: 0.4%;
+}
+
 /* <div /> */
 
 #general-div {
-    background-image: url(/img/background.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    width: 100%;
-    height: 100%;
+    flex: 1 0 auto;
+    min-width: 100%;
+    min-height: 90.4%;
 }
 
 /* <a /> */
@@ -82,16 +87,9 @@
     color: black;
     line-height: 39px;
     text-decoration: none;
-    box-shadow: 2px 2px black, 2px -2px black, -2px 2px black, -2px -2px black, 
-                4px 4px #4d4368, 
-                6.5px 6.5px black, 
-                9px 9px #8e496a;
+    box-shadow: 2px 2px black, 2px -2px black, -2px 2px black, -2px -2px black, 4px 4px #4d4368, 6.5px 6.5px black, 9px 9px #8e496a;
 }
 
     #detail-button:hover {
-        box-shadow: 2px 2px black, 2px -2px black, -2px 2px black, -2px -2px black, 
-                    4px 4px #4d4368, 
-                    6.5px 6.5px black, 
-                    9px 9px #8e496a,
-                    inset 0.5px 0.5px black, inset 0.5px -0.5px black, inset -0.5px 0.5px black, inset -0.5px -0.5px black;
+        box-shadow: 2px 2px black, 2px -2px black, -2px 2px black, -2px -2px black, 4px 4px #4d4368, 6.5px 6.5px black, 9px 9px #8e496a, inset 0.5px 0.5px black, inset 0.5px -0.5px black, inset -0.5px 0.5px black, inset -0.5px -0.5px black;
     }

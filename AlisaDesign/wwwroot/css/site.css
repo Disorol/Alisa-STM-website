@@ -4,9 +4,9 @@ html {
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 html, body {
@@ -14,16 +14,26 @@ html, body {
     margin: 0;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(/img/background.jpg);
+    background-size: 100% 100%;
+    background-repeat: repeat; /* !!! */
+}
+
 header {
     display: flex;
 }
 
 footer {
+    flex: 0 0 auto;
     background-color: #C2E2D2;
-    height: 70px;
-    margin-top: -70px;
-    padding: 1px;
+    height: 7.6%;
+    margin-top: 2%;
     background-color: #2C2D2E;
+    border-top: solid 0px #2C2D2E;
 }
 
     footer p {
@@ -37,6 +47,10 @@ h1 {
     font-family: 'PT Sans';
 }
 
+h2 {
+    font-family: 'PT Sans';
+}
+
 p {
     font-family: 'PT Sans';
 }
@@ -45,23 +59,22 @@ a {
     font-family: 'PT Sans';
 }
 
-a.icon-button {
-    display: inline-block;
-    background-color: white;
-    width: 145px;
-    height: 155px;
-    border-bottom: solid 4px #943f60;
-    text-decoration: none
-}
-
-    a.icon-button p {
-        color: black;
-        text-align: center;
-        margin-top: 16%;
-        font-size: 14px;
+    a.icon-button {
+        display: inline-block;
+        background-color: white;
+        width: 145px;
+        height: 155px;
+        border-bottom: solid 4px #943f60;
+        text-decoration: none
     }
 
-    a.icon-button:hover {
-        box-shadow: inset 3px 3px #0f93ff, inset 3px -3px #0f93ff, inset -3px 3px #0f93ff, inset -3px -3px #0f93ff;
-        font-weight: bold;
-    }
+        a.icon-button p {
+            color: black;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        a.icon-button:hover {
+            box-shadow: inset 3px 3px #0f93ff, inset 3px -3px #0f93ff, inset -3px 3px #0f93ff, inset -3px -3px #0f93ff;
+            font-weight: bold;
+        }

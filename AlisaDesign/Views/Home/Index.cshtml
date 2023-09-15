@@ -1,5 +1,5 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Главная";
 }
 
 <div>
@@ -9,34 +9,34 @@
         СОВРЕМЕННЫЕ РЕШЕНИЯ<br />В ОБЛАСТИ<br />МОДЕЛИРОВАНИЯ И<br />ДИСПЕТЧЕРИЗАЦИИ<br />ТЕХНОЛОГИЧЕСКИХ<br />ПРОЦЕССОВ
     </h1>
 
-    <a id="detail-button" asp-area="" asp-controller="Home" asp-action="About">Подробнее</a>
+    <a id="detail-button" asp-area="" asp-controller="Home" asp-action="Index">Подробнее</a>
 
     <div style="margin-top: 2.5%; margin-left: 6.9%; padding: 1px" role="menu">
         <div style="display: flex;">
             <a class="icon-button" asp-area="" asp-controller="Home" asp-action="Service">
                 <img id="tesseract" src="~/img/tesseract.jpg" />
 
-                <p>3D МОДЕЛИ ДЛЯ<br />ПРОИЗВОДСТВА</p>
+                <p style="margin-top: 16%">3D МОДЕЛИ ДЛЯ<br />ПРОИЗВОДСТВА</p>
             </a>
 
             <a class="icon-button" style="margin-left: 1.5%" asp-area="" asp-controller="Home" asp-action="Gallery">
-                <img id="house" src="~/img/gallery.png" />
+                <img id="picture" src="~/img/picture.png" />
 
-                <p>ГАЛЕРЕЯ ПРОЕКТОВ</p>
+                <p style="margin-top: 16%">ГАЛЕРЕЯ<br />ПРОЕКТОВ</p>
             </a>
         </div>
 
         <div style="display: flex; margin-top: 1.5%">
             <a class="icon-button" asp-area="" asp-controller="Home" asp-action="work">
-                <img id="heart" src="~/img/partners.png" />
+                <img id="community" src="~/img/community.png" />
 
-                <p>РАБОТА С<br />ПАРТНЕРАМИ</p>
+                <p style="margin-top: 10%">РАБОТА С<br />ПАРТНЕРАМИ</p>
             </a>
 
             <a class="icon-button" style="margin-left: 1.5%" href="/img/Презентация СТМ.pdf">
-                <img id="chalkboard" src="~/img/presentation.jpg" />
+                <img id="chalkboard" src="~/img/chalkboard.png" />
 
-                <p>ПРЕЗЕНТАЦИЯ<br />КОМПАНИИ</p>
+                <p style="margin-top: 16%">ПРЕЗЕНТАЦИЯ<br />КОМПАНИИ</p>
             </a>
         </div>
     </div>
