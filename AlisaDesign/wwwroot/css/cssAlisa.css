@@ -44,17 +44,16 @@
     margin-left: 61.5%;
     font-size: 20px;
 }
-.border{
+.border {
+    background: none;
+    border: 3px solid white;
+
     position: absolute;
     width: 475px;
     height: 150px;
     margin-left: 60.5%;
-    background: none;
-    border: 3px solid #ffffff;
-    margin-top: -26.45%
-
+    margin-top: -26.45%;
 }
-
 .textStroke1 {
     position: absolute;
     color: white;
@@ -128,5 +127,7 @@
     margin-top: -11.5%;
     margin-left: 62.5%;
 }
+
+
 
 
