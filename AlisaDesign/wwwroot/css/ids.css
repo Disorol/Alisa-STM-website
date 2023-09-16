@@ -62,7 +62,13 @@
     height: 270px;
 }
 
+#living-room {
+    width: 336px;
+    height: 189px;
+}
+
 /* <h1 /> */
+
 #title {
     color: white;
     margin-left: 5.8%;
@@ -75,6 +81,19 @@
     color: white;
     margin-left: 5.8%;
     margin-top: 0.4%;
+}
+
+#subtitle-partners {
+    color: white;
+    font-size: 33px;
+    margin-left: 5.8%;
+    margin-top: 1.1%;
+}
+
+#subtitle-about {
+    color: white;
+    font-size: 28px;
+    text-align: center;
 }
 
 /* <div /> */
