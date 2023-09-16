@@ -9,7 +9,7 @@
 #contacts {
     color: white;
     margin-top: 1.8%;
-    margin-left: 55%;
+    margin-left: 52%;
 }
 
 #tesseract {
@@ -48,8 +48,18 @@
 }
 
 #partners-foundry-shop {
-    width: 600px;
-    height: 338px;
+    width: 480px;
+    height: 270px;
+}
+
+#residentional-complex {
+    width: 480px;
+    height: 270px;
+}
+
+#oil-rig {
+    width: 480px;
+    height: 270px;
 }
 
 /* <h1 /> */

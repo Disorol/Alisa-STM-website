@@ -19,7 +19,7 @@ body {
     flex-direction: column;
     height: 100vh;
     background-image: url(/img/background.jpg);
-    background-size: 100% 100%;
+    background-size: 100% 170%;
     background-repeat: repeat; /* !!! */
 }
 
@@ -68,6 +68,15 @@ p.central-image-description {
     font-size: 20px;
     margin-top: 1.4%;
     margin-bottom: 0%;
+}
+
+p.partners-text {
+    color: white;
+    font-size: 21px;
+}
+
+span.bold-point {
+    font-weight: bold;
 }
 
 a {
