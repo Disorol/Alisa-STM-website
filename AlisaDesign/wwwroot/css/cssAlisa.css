@@ -128,6 +128,19 @@
     margin-left: 62.5%;
 }
 
+.gallery-image {
+    width: 263.9px;
+    height: 170px;
+}
 
+.border-with-gallery {
+    border: solid white;
+    padding: 0.6%;
+}
+
+.border-with-gallery1 {
+    border: solid white;
+    padding: 0.6%;
+}
 
 

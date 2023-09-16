@@ -77,24 +77,6 @@
 
 }
 
-#strokeGal{
-    position: absolute;
-    width: 3px;
-    height: 300px;
-    margin-top: -51%;
-    margin-left: 51.5%;
-    transform: rotate(90deg);
-}
-
-#strokeGal1 {
-    position: absolute;
-    width: 3px;
-    height: 49px;
-    margin-top: -16.5%;
-    margin-left: 102%;
-    
-}
-
 #textVR{
     position:absolute;
     font-size: 21px;
