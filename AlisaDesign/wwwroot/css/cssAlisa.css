@@ -129,13 +129,29 @@
 }
 
 .gallery-image {
-    width: 263.9px;
+    width: 260px;
     height: 170px;
 }
 
 .border-with-gallery {
     border: solid white;
     padding: 0.6%;
+}
+
+.text-with-gallery {
+    color: white;
+    font-size: 26px;
+    margin-top: -0.2%;
+    margin-left: 4%;
+}
+
+.border-with-text-gallery {
+    border: solid white;
+    padding: 0.6%;
+}
+.gallery-text{
+    color: white;
+    font-size: 20px;
 }
 
 
