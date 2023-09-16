@@ -75,6 +75,11 @@ p.partners-text {
     font-size: 21px;
 }
 
+p.about-text {
+    color: white;
+    font-size: 18px;
+}
+
 span.bold-point {
     font-weight: bold;
 }
