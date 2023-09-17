@@ -6,12 +6,6 @@
     border-bottom: solid 4px #943f60;
 }
 
-#contacts {
-    color: white;
-    margin-top: 1.8%;
-    margin-left: 52%;
-}
-
 #tesseract {
     width: 60px;
     height: 65px;
@@ -83,13 +77,6 @@
     margin-top: 0.4%;
 }
 
-#subtitle-partners {
-    color: white;
-    font-size: 33px;
-    margin-left: 5.8%;
-    margin-top: 1.1%;
-}
-
 #subtitle-about {
     color: white;
     font-size: 28px;
@@ -133,3 +120,11 @@
     #logo-clickable img:hover {
         border-bottom: solid 4px #b55077;
     }
+
+/* <p /> */
+
+#contacts {
+    color: white;
+    margin-top: 1.8%;
+    margin-left: 55%;
+}

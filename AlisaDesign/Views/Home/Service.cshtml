@@ -1,60 +1,57 @@
 ﻿@{
-    ViewData["Title"] = "Service";
+    ViewData["Title"] = "3D модели";
 }
 
-<body>
-    <div>
-        <h1 class="logo">3D модели для застройщиков <br /> и производства</h1>
-        <div class="rechWh">
-            <img id="plant" src="/img/plant.png" />
-            <p id="textPic">Создание 3Д моделей для <br /> производства</p>
-        </div>
-        
-        <div class="rechWh1">
-            <img id="apartament" src="/img/apartament.png" />
-            <p id="textPic1">Создание 3Д моделей для <br /> застройщиков</p>
-        </div>
-        
-        <div class="rechWh2">
-            <img id="VR" src="/img/VR.png" />
-            <p id="textPic2">Использование VR технологий</p>
-        </div>
-        
-        <div class="rechWh3">
-            <img id="VR1" src="/img/VR1.png" />
-            <p id="textPic2">Использование VR технологий</p>
+<div>
+    <h2 class="subtitle">
+        3D модели для застройщиков<br />и производства
+    </h2>
+
+    <div style="display: flex; margin-left: 6%; margin-top: 2%">
+        <div class="white-square-div">
+            <img class="service-image" src="~/img/foundry-shop.png" />
+
+            <p class="central-image-description-black">Создание 3D моделей<br>для производства</p>
         </div>
 
-        <div>
-            <div>
-                <h1 class="textStroke">
-                    С помощью 3D платформера есть <br /> возможность самостоятельно погулять по <br /> ЖК, выйти на балкон, посмотреть в окна, <br />
-                    детально посмотреть и оценить дизайн интерьера <br />
-                    и экстерьера, внести правки</h1>
-            </div>
-            
-            <div>
-                <h1 class="textStroke1">Использование специальных перчаток <br />
-                    (помимо шлема) позволяет отработать <br />
-                    при помощи тренажерного комплекса <br />
-                    действия, требующие мелкой моторики</h1>
-            </div>
-            <div class="border"></div>
-            <div class="border1"></div>
+        <div class="white-square-div" style="margin-left: 2%">
+            <img class="service-image" src="~/img/apartament.png" />
+
+            <p class="central-image-description-black">Создание 3D моделей<br>для застройщиков</p>
         </div>
 
-        <div class="border2">
-
-            <a class="butGallery" asp-area="" asp-controller="Home" asp-action="Gallery">
-                <p id="textGallery">Посмотрите нашу галерею!</p>
-            </a>
-            
-            
-            <img id="strokeGal" src="/img/stroke.png" />
-            <img id="strokeGal1" src="/img/stroke.png" />
-            
+        <div class="white-border-div" style="margin-left: 29%; height: 157px">
+            <p class="about-text">
+                С помощью 3D платформы есть<br />
+                возможность самостоятельно погулять по<br />
+                ЖК, выйти на балкон, посмотреть в окна,<br />
+                детально помотреть и оценить дизайн<br />
+                интерьера и экстерьера, внести правки
+            </p>
         </div>
-        
     </div>
-</body>
+
+    <div style="display: flex; margin-left: 6%; margin-top: 2%">
+        <div class="white-square-div">
+            <img class="service-image" src="~/img/VR.png" />
+
+            <p class="central-image-description-black">Использование VR<br>технологий</p>
+        </div>
+
+        <div class="white-square-div" style="margin-left: 2%">
+            <img class="service-image" src="~/img/AR.png" />
+
+            <p class="central-image-description-black">Использование AR<br>технологий</p>
+        </div>
+
+        <div class="white-border-div" style="margin-left: 29%; height: 130px">
+            <p class="about-text">
+                Использование специальных перчаток<br />
+                (помимо шлема) позволяет отработать<br />
+                при помощи тренажерного комплекса<br />
+                действия, требующие мелкой моторики
+            </p>
+        </div>
+    </div>
+</div>
     
